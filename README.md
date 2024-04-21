@@ -16,7 +16,7 @@ Our implementation is based on [StreamPETR](https://github.com/exiawsh/StreamPET
 ```bash
 tools/dist_train.sh projects/configs/RepDETR4D/repdetr4d_res50_706_bs16_seq_60e.py 4 --work-dir work_dirs/RepDETR4D/
 ```
-Evaluation
+### Evaluation
 
 ```bash
 tools/dist_test.sh projects/configs/RepDETR4D/repdetr4d_res50_706_bs16_seq_60e.py work_dirs/RepDETR4D/latest.pth 4 --eval bbox
