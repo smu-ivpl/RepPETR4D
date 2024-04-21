@@ -8,12 +8,19 @@
 
 ## Getting Started
 
-Please follow our documentation step by step. If you like our work, please recommend it to your colleagues and friends.
+Our implementation is based on [StreamPETR](https://github.com/exiawsh/StreamPETR). Please follow [Environment Setup](https://github.com/exiawsh/StreamPETR/blob/main/docs/setup.md) and [Data Preparation](https://github.com/exiawsh/StreamPETR/blob/main/docs/data_preparation.md) step by step.
 
-1. [**Environment Setup.**](./docs/setup.md)
-2. [**Data Preparation.**](./docs/data_preparation.md)
-3. [**Training and Inference.**](./docs/training_inference.md)
+## Train & Inference
 
+### Train
+```bash
+tools/dist_train.sh projects/configs/RepDETR4D/repdetr4d_res50_706_bs16_seq_60e.py 4 --work-dir work_dirs/RepDETR4D/
+```
+Evaluation
+
+```bash
+tools/dist_test.sh projects/configs/RepDETR4D/repdetr4d_res50_706_bs16_seq_60e.py work_dirs/RepDETR4D/latest.pth 4 --eval bbox
+```
 
 ## Results on NuScenes Val Set.
 | Model | Setting |Pretrain| Lr Schd | NDS| mAP|Config |
