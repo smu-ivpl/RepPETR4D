@@ -14,10 +14,6 @@ Please follow our documentation step by step. If you like our work, please recom
 2. [**Data Preparation.**](./docs/data_preparation.md)
 3. [**Training and Inference.**](./docs/training_inference.md)
 
-## Model Zoo
-<div align="center">
-  <img src="figs/fps.png" width="550"/>
-</div><br/>
 
 ## Results on NuScenes Val Set.
 | Model | Setting |Pretrain| Lr Schd | NDS| mAP|Config |
