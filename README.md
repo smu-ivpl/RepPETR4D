@@ -1,5 +1,5 @@
 <div align="center">
-<h3>Efficient Deformable Modeling Network for Multi-View 3D Object Detection</h3>
+<h1>Efficient Deformable Modeling Network for Multi-View 3D Object Detection</h1>
 </div>
 
 <div align="center">
