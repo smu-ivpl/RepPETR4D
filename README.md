@@ -26,9 +26,9 @@ tools/dist_test.sh projects/configs/RepDETR4D/repdetr4d_res50_706_bs16_seq_60e.p
 | Model | Setting |Pretrain| Lr Schd | NDS| mAP|Config |Weight|
 | :---: | :---: | :---: | :---: | :---:| :---: | :---:| :---:|
 |StreamPETR| R18 | ImageNet | 60ep | 48.4 | 36.2 |-|-|
-|RepPETR4D| R18 | ImageNet | 60ep | 50.0 | 37.8 |[config](https://github.com/smu-ivpl/RepPETR4D/blob/main/projects/configs/RepPETR4D/repdetr4d_res18_706_bs16_seq_60e.py)|[weight](https://drive.google.com/file/d/1PSjde0zz5Xw8BSRXWhE9BnC8akLV_oB_/view?usp=drive_link)|
+|RepPETR4D| R18 | ImageNet | 60ep | 50.0 | 37.8 |[config](https://github.com/smu-ivpl/RepPETR4D/blob/main/projects/configs/RepPETR4D/repdetr4d_res18_706_bs16_seq_60e.py)|[weight](https://drive.google.com/file/d/1OsJswU9DEIFFtYtKv_UCWA7XQGCEjKMd/view?usp=drive_link)|
 |StreamPETR| R50 | [NuImg](https://download.openmmlab.com/mmdetection3d/v0.1.0_models/nuimages_semseg/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim_20201009_124951-40963960.pth) | 60ep | 54.5 |44.9 |-|
-|RepPETR4D| R50 | [NuImg](https://download.openmmlab.com/mmdetection3d/v0.1.0_models/nuimages_semseg/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim_20201009_124951-40963960.pth) | 60ep | 55.1 |45.5 |[config](https://github.com/smu-ivpl/RepPETR4D/blob/main/projects/configs/RepDETR4D/repdetr4d_res50_706_bs16_seq_60e.py)|[weight](https://drive.google.com/file/d/1OsJswU9DEIFFtYtKv_UCWA7XQGCEjKMd/view?usp=drive_link)|
+|RepPETR4D| R50 | [NuImg](https://download.openmmlab.com/mmdetection3d/v0.1.0_models/nuimages_semseg/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim_20201009_124951-40963960.pth) | 60ep | 55.1 |45.5 |[config](https://github.com/smu-ivpl/RepPETR4D/blob/main/projects/configs/RepDETR4D/repdetr4d_res50_706_bs16_seq_60e.py)|[weight](https://drive.google.com/file/d/1PSjde0zz5Xw8BSRXWhE9BnC8akLV_oB_/view?usp=drive_link)|
 
 
 ## Results on NuScenes Test Set.
