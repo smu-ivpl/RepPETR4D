@@ -5,7 +5,9 @@
 <div align="center">
   <img src="figs/Overall_architecture_new.png" width="800"/>
 </div><br/>
-# Publication: Efficient Deformable Modeling Network for Multi-view 3D Object Detection, Neural Computing and Applications (Springer Nature), vol. 38, article number 122 (https://doi.org/10.1007/s00521-026-11881-y), Feb. 14, 2026
+
+## Publication: Efficient Deformable Modeling Network for Multi-view 3D Object Detection, Neural Computing and Applications (Springer Nature), vol. 38, article number 122 (https://doi.org/10.1007/s00521-026-11881-y), Feb. 14, 2026
+
 ## Getting Started
 
 Our implementation is based on [StreamPETR](https://github.com/exiawsh/StreamPETR). Please follow [Environment Setup](https://github.com/exiawsh/StreamPETR/blob/main/docs/setup.md) and [Data Preparation](https://github.com/exiawsh/StreamPETR/blob/main/docs/data_preparation.md) step by step.
